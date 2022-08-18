@@ -1,0 +1,11 @@
+default: --no-source --color --format pretty --format html --out html
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: HEADLESS=headless
+internet_explorer: BROWSER=internet_explorer
+
+# Reports
+html:  --format html --out=results/report.html
+json:  --format json --out=results/report.json
